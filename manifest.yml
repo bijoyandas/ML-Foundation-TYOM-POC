@@ -1,0 +1,10 @@
+applications:
+- name: tyompoc
+  disk_quota: 1G
+  instances: 1
+  memory: 1G
+  routes:
+  - route: tyompoc.cfapps.eu10.hana.ondemand.com
+  services:
+  - mlf
+  stack: cflinuxfs3

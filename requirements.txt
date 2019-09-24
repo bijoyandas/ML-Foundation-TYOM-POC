@@ -1,0 +1,8 @@
+flask
+requests
+minio
+scikit-learn==0.19.1
+uuid
+pyyaml
+numpy
+scipy
